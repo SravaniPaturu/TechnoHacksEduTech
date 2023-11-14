@@ -1,5 +1,9 @@
 #program for calculator
 
+#Select input from user
+num1=int(input("Enter First number:"))
+num2=int(input("Enter Second number:"))
+
 #Function to add two numbers
 def add(num1,num2):
     return num1+num2
@@ -20,11 +24,8 @@ def div(num1,num2):
 def mod(num1,num2):
     return num1%num2
 
-print("Enter your choice:\n","1.Addition:\n","2.Subtraction:\n","3.Multiplication:\n","4.Division:\n","5.Modulus:")
+print("Enter the operations:\n","1.Addition:\n","2.Subtraction:\n","3.Multiplication:\n","4.Division:\n","5.Modulus:")
 
-#Select input from user
-num1=int(input("Enter First number:"))
-num2=int(input("Enter Second number:"))
 choice=int(input("Enter choice to perform operation 1,2,3,4,5:"))
 
 if choice==1:
