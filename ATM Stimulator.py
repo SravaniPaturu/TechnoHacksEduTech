@@ -2,7 +2,7 @@
 
 print("Please insert your card")
 
-user_name=input("Enter the User name:")
+user_name=input("Enter the User_name:")
 
 password=int(input("Enter your password:"))
 
@@ -31,7 +31,7 @@ if pin==password:
 
             print(user_name,deposit_amount,"has been deposited into your account")
 
-            print("your updated balnce is",balance)
+            print("your updated balance is",balance)
         
         #To withdraw amount from account
         elif choice==3:
@@ -45,7 +45,7 @@ if pin==password:
 
                 print(user_name,withdraw_amount,"has been debited from your account")
 
-                print("your updated balnce is",balance)
+                print("your updated balance is",balance)
     
         elif choice==4:
             break
